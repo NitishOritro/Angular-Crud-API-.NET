@@ -13,7 +13,8 @@ export class EmployeeService {
 
    }
 
-  employeeUrl: string = "https://localhost:44372/api/Employee";
+  //employeeUrl: string = "https://localhost:44372/api/Employee";
+  employeeUrl: string = "https://mocki.io/v1/b86a6eeb-fa4b-4f42-aff7-db444884333b";
   designationUrl: string = 'https://localhost:44372/api/Designation';
 
   //To Get list of Data
@@ -34,7 +35,7 @@ export class EmployeeService {
   }
 
   //observable return type
-  getEmployess():Observable<Employee[]>
+  getEmployeesData():Observable<Employee[]>
   {
     return this.myhttp.get<Employee[]>(this.employeeUrl);
   }
