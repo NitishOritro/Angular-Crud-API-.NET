@@ -1,0 +1,39 @@
+{
+  "users": 
+  [
+		{
+			"id":"1", 
+			"name":"Harry Potter",
+			"email":"harry@gmail.com",
+			"doj":"12-09-2006",
+			"designation": "HRM" 		
+		},
+
+		{
+			"id":"2", 
+			"name":"Jhon Potter",
+			"email":"jhon@gmail.com",
+			"doj":"12-09-2006",
+			"designation": "CIVIL" 		
+		},
+		
+		{
+			"id":"3", 
+			"name":"Maxy Potter",
+			"email":"maxy@gmail.com",
+			"doj":"12-09-2006",
+			"designation": "EEE" 		
+		},
+
+		{
+			"id":"4", 
+			"name":"Danny Potter",
+			"email":"danny@gmail.com",
+			"doj":"12-09-2006",
+			"designation": "CSE" 		
+		}
+	]
+}
+
+
+npm install json-server --save

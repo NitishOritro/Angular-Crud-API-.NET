@@ -3,7 +3,7 @@ export class Employee {
     name: string;
     email: string;
     doj: any;
-    designationID: number=0;
+    //designationID: number=0;
     designation: string='';
 }
 

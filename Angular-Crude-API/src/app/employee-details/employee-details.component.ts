@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Employee } from '../model/employee.model';
 import { EmployeeService } from '../service/employee.service';
 
 @Component({
@@ -15,6 +16,11 @@ export class EmployeeDetailsComponent {
       this.empService.listOfEmployee = data;
       console.log(this.empService.listOfEmployee);
     });
+  }
+
+  editEmployee(editEmployeeObject: Employee)
+  {
+    console.log(editEmployeeObject);
   }
 
 }

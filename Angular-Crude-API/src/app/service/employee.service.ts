@@ -17,6 +17,8 @@ export class EmployeeService {
   employeeUrl: string = "https://mocki.io/v1/b86a6eeb-fa4b-4f42-aff7-db444884333b";
   designationUrl: string = 'https://localhost:44372/api/Designation';
 
+  baseUrl: string = "/api/employee";
+
   //To Get list of Data
   listOfEmployee: Employee[] = [];
   listOfDesignation: Designation[] = [];
@@ -37,7 +39,8 @@ export class EmployeeService {
   //observable return type
   getEmployeesData():Observable<Employee[]>
   {
-    return this.myhttp.get<Employee[]>(this.employeeUrl);
+    //return this.myhttp.get<Employee[]>(this.employeeUrl);
+    return this.myhttp.get<Employee[]>(this.baseUrl);
   }
 
   getDesignation():Observable<Designation[]>

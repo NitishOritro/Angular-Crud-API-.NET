@@ -1,0 +1,13 @@
+git clone https://github.com/NitishOritro/Angular-Crud-.NET-Core
+
+git remote add origin https://github.com/NitishOritro/Angular-Crud-.NET-Core
+
+
+git config --global user.email "nitish.csedu51@gmail.com"
+
+git config --global user.name "NitishOritro"
+
+rm -fr .git
+
+
+git remote set-url origin https://github.com/NitishOritro/Angular-Crud-API-.NET
