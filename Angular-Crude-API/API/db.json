@@ -34,6 +34,20 @@
       "email": "shaun@gmail.com",
       "doj": "12-09-2006",
       "designation": "MSE"
+    },
+    {
+      "id": "6",
+      "designation": "EEE",
+      "name": "Susmita",
+      "email": "sus@gmail.com",
+      "doj": "2023-01-03"
+    },
+    {
+      "id": "7",
+      "designation": "EEE",
+      "name": "Susmita",
+      "email": "sus@gmail.com",
+      "doj": "2023-01-03"
     }
   ]
 }

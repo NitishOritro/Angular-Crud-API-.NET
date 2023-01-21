@@ -17,10 +17,10 @@ export class EmployeeFormComponent {
   submit(myForm: NgForm)
   {
     console.log(myForm.value);
-    if(this.empService.employeeData.id == 0)
+    if(this.empService.employeeData.id < 5)
       this.insertEmployee(myForm);
      else
-     this.insertEmployee(myForm);
+     this.updateEmployee(myForm);
   }
 
   insertEmployee(myForm: NgForm)
@@ -55,6 +55,7 @@ export class EmployeeFormComponent {
       console.log(this.empService.listOfEmployee);
 
       this.empService.listOfEmployee=res;
+      console.log(this.empService.listOfEmployee);
     });
   }
 

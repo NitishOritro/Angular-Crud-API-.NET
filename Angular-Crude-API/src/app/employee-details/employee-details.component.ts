@@ -22,11 +22,13 @@ export class EmployeeDetailsComponent {
 
   editEmployee(editEmployeeObject: Employee)
   {
+    console.log("Edit Employee Data");
     console.log(editEmployeeObject);
 
     let df = this.datepipe.transform(editEmployeeObject.doj, 'yyyy-MM-dd');
     editEmployeeObject.doj = df;
     this.empService.employeeData = editEmployeeObject;
+
   }
 
 }
