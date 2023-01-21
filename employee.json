@@ -37,3 +37,35 @@
 
 
 npm install json-server --save
+
+
+
+,
+    {
+      "id": "6",
+      "designation": "CSE",
+      "name": "Nitish Ranjan",
+      "email": "nitish@gmail.com",
+      "doj": "2023-01-10"
+    },
+    {
+      "id": "7",
+      "designation": "EEE",
+      "name": "Susmita",
+      "email": "susmita@gmail.com",
+      "doj": "2023-01-10"
+    },
+    {
+      "id": "8",
+      "designation": "LAW",
+      "name": "Anuradha",
+      "email": "anu@gmail.com",
+      "doj": "2023-01-09"
+    },
+    {
+      "id": "9",
+      "designation": "LAW",
+      "name": "Anuradha",
+      "email": "anu@gmail.com",
+      "doj": "2023-01-09"
+    }

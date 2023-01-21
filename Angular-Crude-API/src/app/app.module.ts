@@ -7,6 +7,9 @@ import { AppComponent } from './app.component';
 import { HttpClientModule} from '@angular/common/http';
 import { EmployeeDetailsComponent } from './employee-details/employee-details.component';
 import { EmployeeFormComponent } from './employee-details/employee-form/employee-form.component';
+import { FormsModule } from '@angular/forms';
+import { DatePipe } from '@angular/common';
+
 
 
 @NgModule({
@@ -18,9 +21,10 @@ import { EmployeeFormComponent } from './employee-details/employee-form/employee
   imports: [
     BrowserModule,
     AppRoutingModule,
-    HttpClientModule
+    HttpClientModule,
+    FormsModule
   ],
-  providers: [],
+  providers: [DatePipe],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

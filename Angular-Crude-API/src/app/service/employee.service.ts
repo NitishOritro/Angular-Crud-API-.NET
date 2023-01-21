@@ -28,12 +28,14 @@ export class EmployeeService {
 
   saveEmployeeData()
   {
-    return this.myhttp.post(this.employeeUrl, this.employeeData)
+    //return this.myhttp.post(this.employeeUrl, this.employeeData)
+    return this.myhttp.post(this.baseUrl, this.employeeData)
   }
 
   updateEmployeeData()
   {
-    return this.myhttp.post(`${this.employeeUrl}/${this.employeeData.id}`, this.employeeData)
+    //return this.myhttp.post(`${this.employeeUrl}/${this.employeeData.id}`, this.employeeData)
+    return this.myhttp.post(`${this.baseUrl}/${this.employeeData.id}`, this.employeeData)
   }
 
   //observable return type
